@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Wemos_D1_Mini)(type KiCad)(uri "$(KIPRJMOD)/Wemos_D1_Mini.pretty")(options "")(descr ""))
+  (lib (name ESP32_Shield_Project)(type KiCad)(uri "$(KIPRJMOD)/ESP32_Shield_Project.pretty")(options "")(descr ""))
+)
