@@ -1,1 +1,1 @@
-# ESP8266-Multisensor-Shield
+# ESP8266 Multisensor Shield
