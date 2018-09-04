@@ -13,10 +13,9 @@
 const char* ssid     = "REPLACE_WITH_YOUR_SSID";
 const char* password = "REPLACE_WITH_YOUR_PASSWORD";
 
-// Auxiliary variables for temperature and humidity
+// Auxiliary variables for temperature
 static char celsiusTemp[7];
 static char fahrenheitTemp[7];
-static char humidityTemp[7];
 String temperatureString = "";      // Variable to hold the temperature reading
 
 // EEPROM size
@@ -92,7 +91,7 @@ void setup() {
   pinMode(output, OUTPUT);
   pinMode(statusLed, OUTPUT);
   digitalWrite(output, HIGH);
-  digitalWrite(statusLed, HIGH);
+  digitalWrite(statusLed, LOW);
   // Read from flash memory on start and store the values in auxiliary variables
   // Set output to last state (saved in the flash memory)
   if(!EEPROM.read(0)) {
@@ -197,7 +196,7 @@ void loop() {
             }
             
             // Web Page Heading
-            client.println("<body><h1>ESP32 Web Server</h1>");
+            client.println("<body><h1>ESP8266 Web Server</h1>");
             // Drop down menu to select mode
             client.println("<p><strong>Mode selected:</strong> " + modes[selectedMode] + "</p>");
             client.println("<select id=\"mySelect\" onchange=\"setMode(this.value)\">");
