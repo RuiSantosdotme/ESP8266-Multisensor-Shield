@@ -10,6 +10,7 @@ For the complete step-by-step instructions, visit: https://randomnerdtutorials.c
 
 How to browse the GitHub repository:
 - [ESP8266 web server code (for Arduino IDE)](https://github.com/RuiSantosdotme/ESP8266-Multisensor-Shield/blob/master/Code/ESP8266_Multisensor_Shield/ESP8266_Multisensor_Shield.ino)
+- [ESP8266 with Node-RED](https://github.com/RuiSantosdotme/ESP8266-Multisensor-Shield/tree/master/Code/NodeRED_ESP8266_Multisensor_Shield)
 - [Schematic diagram](https://github.com/RuiSantosdotme/ESP8266-Multisensor-Shield/tree/master/Images)
 - [Gerber files](https://github.com/RuiSantosdotme/ESP8266-Multisensor-Shield/raw/master/KiCad_PCB_ESP8266_Multisensor_Shield/GERBERS/WemosD1MiniShield.zip)
 - [KiCad project to edit the PCB](https://github.com/RuiSantosdotme/ESP8266-Multisensor-Shield/tree/master/KiCad_PCB_ESP8266_Multisensor_Shield)
