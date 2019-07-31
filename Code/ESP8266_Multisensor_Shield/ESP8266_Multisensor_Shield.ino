@@ -332,7 +332,7 @@ void loop() {
 }
 
 // Checks if motion was detected and the sensors are armed. Then, starts a timer.
-void detectsMovement() {
+ICACHE_RAM_ATTR void detectsMovement() {
   if(armMotion || (armMotion && armLdr)) {
     Serial.println("MOTION DETECTED!!!");
     startTimer = true;
