@@ -123,7 +123,7 @@ void reconnect() {
 }
 
 // Checks if motion was detected and the sensors are armed. Then, starts a timer.
-void detectsMovement() {
+ICACHE_RAM_ATTR void detectsMovement() {
   Serial.println("MOTION DETECTED!");
   client.publish("esp8266/motion", "MOTION DETECTED!");
   previousTime = millis();
